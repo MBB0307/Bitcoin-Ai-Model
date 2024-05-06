@@ -31,3 +31,5 @@ Limitations
 3: After looking at the model data, I am quite sure that most cells in the RNN learn that the price is somewhat close to yesterdays price, this means that you get a "Lagging effect".
   The model lags behind real-time data because it pick up on it later and then readjusts its prediction. An IA model should therefore learn form changes in price and predict the future change in price instead of the actual price.
   This however, renders the model highly ineffective at price predictions.
+
+As for the code. directives are included in the code. to run the code in terminal several pip installations has to be done in advance. look at import statements for full list
