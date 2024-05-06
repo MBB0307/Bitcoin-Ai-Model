@@ -11,7 +11,7 @@ import os
 from urllib3.exceptions import ReadTimeoutError
 from newsapi import NewsApiClient
 import nltk
-from nltk.tokenize import word_tokenize  # Add this import for tokenization
+from nltk.tokenize import word_tokenize
 import ssl
 
 # Specify the NLTK data path where you've manually downloaded the resources
@@ -39,7 +39,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 threshold = 99.9 #Threshold for retraining
 
-#Clear screen
+#Clear screen - can be discarded by preference
 os.system('cls' if os.name == 'nt' else 'clear')
 
 
